@@ -1,8 +1,4 @@
-import {
-  createSignal,
-  createEffect,
-  createMemo,
-} from "../../../.emacs.d/var/backup/!home!mhofer!projects!talks!signals!signal.js~";
+import { createSignal, createEffect, createMemo } from "./signal.js";
 
 const [count, setCount] = createSignal(0);
 const [firstName, setFirstName] = createSignal("John");

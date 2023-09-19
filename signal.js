@@ -40,7 +40,6 @@ export function createEffect(callback) {
 
 /**
  * - Derivation (also Memoization or Pure Computed)
-
  */
 export function createMemo(callback) {
   const [computed, setComputed] = createSignal();
